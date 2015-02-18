@@ -78,3 +78,10 @@
   tags: 
     - userbookmark
   index: 9
+- place_name: Milne Bay, Papua New Guinea
+  zoom: 16
+  center: 
+    - -8.544376876011057
+    - 151.05529546737674
+  tags: 
+    - userbookmark
