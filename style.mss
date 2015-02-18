@@ -135,28 +135,6 @@ Map {
     }
 }
 
-// ==================================================================
-// CONTOURS
-// ================================================================== 
-
-#contour {
-  line-color: #ccc;
-  line-opacity: 0.75;
-  }
-
-#contour.label {
-    text-name: "[ele]+' m'";
-    text-face-name: @sans;
-    text-placement: line;
-    text-size: 9;
-    text-fill: darken(@land,50);
-    text-avoid-edges: true;
-    text-halo-fill: @land;
-    text-halo-radius: 1.5;
-    text-halo-rasterizer: fast;
-}
-
-
 // ---------------------------------------------------------------------
 // Buildings 
 

@@ -10,7 +10,7 @@
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[Ethnocart]]></Parameter>
-  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5]]></Parameter>
 </Parameters>
 
 <FontSet name="fontset-0">
@@ -53,19 +53,6 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
       </Layer>
 
-<Layer name="hillshade"
-  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
-
-<Style name="contour" filter-mode="first">
-  <Rule>
-    <LineSymbolizer stroke="#cccccc" stroke-opacity="0.75" />
-  </Rule>
-</Style>
-<Layer name="contour"
-  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>contour</StyleName>  </Layer>
-
 <Style name="landuse-overlay" filter-mode="first" opacity="0.05">
 </Style>
 <Style name="landuse" filter-mode="first">
@@ -100,7 +87,69 @@
     <StyleName>landuse</StyleName>
     <StyleName>landuse-overlay</StyleName>  </Layer>
 
+<Style name="contour-line" filter-mode="first">
+  <Rule>
+    <Filter>([index] &gt;= 5)</Filter>
+    <LineSymbolizer stroke-opacity="0.2" stroke-width="1.2" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([index] != -1)</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="0.1" stroke-width="1.2" />
+  </Rule>
+</Style>
+<Layer name="contour"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>contour-line</StyleName>  </Layer>
+
+<Layer name="hillshade"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
 <Style name="waterway" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([class] = 'stream')</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#e6e6e6" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([class] = 'stream')</Filter>
+    <LineSymbolizer stroke-width="2" stroke="#e6e6e6" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([class] = 'stream')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#e6e6e6" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([class] = 'stream')</Filter>
+    <LineSymbolizer stroke="#e6e6e6" stroke-linecap="round" stroke-width="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <Filter>([class] = 'canal')</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#e6e6e6" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([class] = 'canal')</Filter>
+    <LineSymbolizer stroke-width="2" stroke="#e6e6e6" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([class] = 'canal')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#e6e6e6" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([class] = 'canal')</Filter>
+    <LineSymbolizer stroke="#e6e6e6" stroke-linecap="round" stroke-width="0.5" />
+  </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([class] = 'stream_intermittent')</Filter>
@@ -122,50 +171,6 @@
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([class] = 'stream_intermittent')</Filter>
     <LineSymbolizer stroke-dasharray="6, 2, 2, 2" stroke="#e6e6e6" stroke-linecap="round" stroke-width="0.5" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>2500</MaxScaleDenominator>
-    <Filter>([class] = 'canal')</Filter>
-    <LineSymbolizer stroke-width="3" stroke="#e6e6e6" stroke-linecap="round" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>2500</MinScaleDenominator>
-    <Filter>([class] = 'canal')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#e6e6e6" stroke-linecap="round" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([class] = 'canal')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#e6e6e6" stroke-linecap="round" />
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([class] = 'canal')</Filter>
-    <LineSymbolizer stroke="#e6e6e6" stroke-linecap="round" stroke-width="0.5" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>2500</MaxScaleDenominator>
-    <Filter>([class] = 'stream')</Filter>
-    <LineSymbolizer stroke-width="3" stroke="#e6e6e6" stroke-linecap="round" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>2500</MinScaleDenominator>
-    <Filter>([class] = 'stream')</Filter>
-    <LineSymbolizer stroke-width="2" stroke="#e6e6e6" stroke-linecap="round" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>50000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([class] = 'stream')</Filter>
-    <LineSymbolizer stroke-width="1" stroke="#e6e6e6" stroke-linecap="round" />
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>50000</MinScaleDenominator>
-    <Filter>([class] = 'stream')</Filter>
-    <LineSymbolizer stroke="#e6e6e6" stroke-linecap="round" stroke-width="0.5" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
@@ -2609,5 +2614,37 @@
 <Layer name="housenum_label"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>housenum_label</StyleName>  </Layer>
+
+<Style name="contour-label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([index] = 10)</Filter>
+    <TextSymbolizer face-name="Open Sans Regular" placement="line" size="10" fill="#666666" avoid-edges="true" halo-fill="rgba(255, 255, 255, 0.19999999999999996)" halo-radius="4" halo-rasterizer="fast" ><![CDATA[[ele]+' m']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([index] = 10)</Filter>
+    <TextSymbolizer face-name="Open Sans Regular" placement="line" size="10" fill="#666666" avoid-edges="true" halo-fill="rgba(255, 255, 255, 0.19999999999999996)" halo-radius="4" halo-rasterizer="fast" ><![CDATA[[ele]+' m']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([index] = 10)</Filter>
+    <TextSymbolizer face-name="Open Sans Regular" placement="line" size="10" fill="#666666" avoid-edges="true" halo-fill="rgba(255, 255, 255, 0.19999999999999996)" halo-radius="4" halo-rasterizer="fast" ><![CDATA[[ele]+' m']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([index] &gt;= 5)</Filter>
+    <TextSymbolizer face-name="Open Sans Regular" placement="line" size="10" fill="#666666" avoid-edges="true" halo-fill="rgba(255, 255, 255, 0.19999999999999996)" halo-radius="4" halo-rasterizer="fast" ><![CDATA[[ele]+' m']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([index] &gt;= 5)</Filter>
+    <TextSymbolizer face-name="Open Sans Regular" placement="line" size="10" fill="#666666" avoid-edges="true" halo-fill="rgba(255, 255, 255, 0.19999999999999996)" halo-radius="4" halo-rasterizer="fast" ><![CDATA[[ele]+' m']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="contour"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>contour-label</StyleName>  </Layer>
 
 </Map>
