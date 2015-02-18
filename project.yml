@@ -26,4 +26,5 @@ styles:
   - style.mss
   - road.mss
   - labels.mss
+  - places.mss
 template: ''

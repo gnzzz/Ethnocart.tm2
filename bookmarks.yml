@@ -5,6 +5,7 @@
     - -97.9705810546875
   tags: 
     - userbookmark
+  index: 0
 - place_name: Curtis, 69025, Nebraska, United States
   zoom: 5
   center: 
@@ -12,6 +13,7 @@
     - -100.45898437499999
   tags: 
     - userbookmark
+  index: 1
 - place_name: Bayern, Germany
   zoom: 5
   center: 
@@ -19,6 +21,7 @@
     - 12.2607421875
   tags: 
     - userbookmark
+  index: 2
 - place_name: San Francisco, 94112, California, United States
   zoom: 12
   center: 
@@ -26,6 +29,7 @@
     - -122.42271423339842
   tags: 
     - userbookmark
+  index: 3
 - place_name: San Francisco, 94103, California, United States
   zoom: 16
   center: 
@@ -33,6 +37,7 @@
     - -122.41048336029053
   tags: 
     - userbookmark
+  index: 4
 - place_name: San Francisco, 94103, California, United States
   zoom: 15
   center: 
@@ -40,6 +45,7 @@
     - -122.40983963012695
   tags: 
     - userbookmark
+  index: 5
 - place_name: Washington, 20024, District of Columbia, United States
   zoom: 13
   center: 
@@ -47,6 +53,7 @@
     - -77.04935073852539
   tags: 
     - userbookmark
+  index: 6
 - place_name: Washington, 20001, District of Columbia, United States
   zoom: 13
   center: 
@@ -54,6 +61,7 @@
     - -77.02463150024414
   tags: 
     - userbookmark
+  index: 7
 - place_name: Washington, 20005, District of Columbia, United States
   zoom: 15
   center: 
@@ -61,3 +69,20 @@
     - -77.03342914581299
   tags: 
     - userbookmark
+  index: 8
+- place_name: Upper Demerara-Berbice, Guyana
+  zoom: 16
+  center: 
+    - 3.6607177342349915
+    - -59.35445308685303
+  tags: 
+    - userbookmark
+  index: 9
+- place_name: Upper Demerara-Berbice, Guyana
+  zoom: 16
+  center: 
+    - 3.6607177342349915
+    - -59.35445308685303
+  tags: 
+    - userbookmark
+  index: 10
