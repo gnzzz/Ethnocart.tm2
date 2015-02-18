@@ -82,8 +82,8 @@ Map {
   line-width: 0.5;
   [class='river'] {
     [zoom>=12] { line-width: 1; }
-    [zoom>=14] { line-width: 2; }
-    [zoom>=16] { line-width: 3; }
+    [zoom>=14] { line-width: 5; }
+    [zoom>=16] { line-width: 10; }
   }
   [class='stream'],
   [class='stream_intermittent'],
@@ -196,7 +196,7 @@ Map {
 #building {
   [zoom>=14] {
   line-width: 0.5; 
-  line-color: #999;
+  line-color: #000000;
   }
   [zoom>=16] {
 	line-width: 0.5; 
