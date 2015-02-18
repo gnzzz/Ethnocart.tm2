@@ -22,9 +22,10 @@
     text-allow-overlap: false;
     // POI labels with an icon need to be offset:
     [maki!=null] { 
-      text-dy: 24;
-      marker-file: url('img/maki/[maki]-24.svg');
-      marker-height: 24;
+//       Uncomment the three lines below for icons
+//      text-dy: 24;
+//      marker-file: url('img/maki/[maki]-24.svg');
+//      marker-height: 24;
     }
     [zoom>=13] {
       text-size: 10;
