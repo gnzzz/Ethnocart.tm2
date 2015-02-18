@@ -17,36 +17,11 @@ center:
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
-layers: 
-  - landcover
-  - landuse
-  - contour.line
-  - hillshade
-  - waterway
-  - water
-  - aeroway
-  - barrier_line
-  - building
-  - landuse_overlay
-  - tunnel
-  - road
-  - bridge
-  - admin
-  - country_label_line
-  - country_label
-  - marine_label
-  - state_label
-  - place_label
-  - water_label
-  - poi_label
-  - road_label
-  - waterway_label
-  - housenum_label
-  - contour.label
+layers: null
 maxzoom: 22
 minzoom: 0
 name: Ethnocart
-source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5"
+source: "mapbox:///gnz.920de0b3,mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5"
 styles: 
   - style.mss
   - road.mss
@@ -54,4 +29,5 @@ styles:
   - places.mss
   - contours.mss
   - landuse.mss
+  - natural.mss
 template: ''

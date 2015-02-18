@@ -86,3 +86,11 @@
   tags: 
     - userbookmark
   index: 10
+- place_name: Halsingbord, Skåne län, Sweden
+  zoom: 17
+  center: 
+    - 56.03950527626797
+    - 12.771525979042053
+  tags: 
+    - userbookmark
+  index: 11
