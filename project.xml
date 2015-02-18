@@ -2250,396 +2250,514 @@
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'park')</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'park')</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'park')</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'park')</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'park')</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'school')</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'school')</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'school')</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'school')</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'school')</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'rail')</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'rail')</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'rail')</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'rail')</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'rail')</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airfield')</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airfield')</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airfield')</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airfield')</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airfield')</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airport')</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airport')</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airport')</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airport')</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = 'airport')</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = '')</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = '')</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = '')</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = '')</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] = '')</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>12500</MaxScaleDenominator>
-    <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>100000</MaxScaleDenominator>
-    <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
-    <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
-  </Rule>
-  <Rule>
     <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] != null)</Filter>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] != null)</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] != null)</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] != null)</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2) and ([maki] != null)</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <Filter>([maki] = '')</Filter>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
     <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
-    <Filter>([maki] = '')</Filter>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
     <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <Filter>([maki] = '')</Filter>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
     <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <Filter>([maki] = '')</Filter>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
     <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
-    <Filter>([maki] = '')</Filter>
+    <Filter>([scalerank] = 'hospital') and ([scalerank] &lt;= 2)</Filter>
     <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
-    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
-    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
     <MinScaleDenominator>100000</MinScaleDenominator>
-    <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <Filter>([maki] = 'rail') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
   </Rule>
   <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([maki] = 'airfield') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([maki] = 'airport') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([maki] = 'park') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([maki] = 'school') and ([scalerank] &lt;= 2)</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <Filter>([maki] = '')</Filter>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([maki] = '')</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([maki] = '')</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([maki] = '')</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([maki] = '')</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
     <Filter>([maki] != null)</Filter>
+    <TextSymbolizer size="16" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([maki] != null)</Filter>
+    <TextSymbolizer size="14" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([maki] != null)</Filter>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" dy="24" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([maki] != null)</Filter>
+    <TextSymbolizer size="10" line-spacing="-2" dy="24" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([maki] != null)</Filter>
+    <TextSymbolizer dy="24" fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="img/maki/[maki]-24.svg" height="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <TextSymbolizer size="16" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <TextSymbolizer size="14" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <TextSymbolizer size="12" line-spacing="-2" fill="#444444" fontset-name="fontset-6" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <TextSymbolizer size="10" line-spacing="-2" fontset-name="fontset-6" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>100000</MinScaleDenominator>
     <TextSymbolizer fontset-name="fontset-6" size="9" fill="#333333" halo-fill="rgba(255, 255, 255, 0.7)" halo-radius="1" halo-rasterizer="fast" minimum-distance="50" wrap-width="60" line-spacing="-2" allow-overlap="false" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
