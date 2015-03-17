@@ -55,17 +55,41 @@ If the information you want to add is only of interest to your one map then you 
 
 The basic idea is that you will use the [Mapbox editor](https://www.mapbox.com/editor/) to add markers, lines and polygons that are used.
 
+##### Adding the data for the first time
+
 1. Go to the editor on your account.
 2. Click data and zoom to the region of interest
 3. Add markers, lines and polygons with the name field to be the type ( see below ) and the description to be the name - if any - of that marker.
 4. Click save when you are done editing
 5. Click the project button and download the data as geoJSON
-6. In Mapbox Studio, click projects and data sources. If you don't already have a data source for this project click new otherwise select the previous one.
-7. Add a new layer and select the .json file you downloaded in step 5 and give it a description for yourself and rename the layer with one of the options below.
+6. In Mapbox Studio, click projects and data sources. If you don't already have a data source for this project click new otherwise select new project and empty data source.
+7. Add a new layer and select the .json file you downloaded in step 5 and give it a description for yourself and rename the layer to `namedMarkers`.
 8. Save the data and click projects and upload to mapbox. Once done, go back and copy the Map ID
 9. Go back to ethnocart from the projects overview and by clicking layers change source. Add the Map ID from step 8 to the start of the string in the bottom and add a comma to seperate the Map ID from the other that was already there.
 10. If done correctly then you should now see that there is a new layer in the bottom of the overview.
 
+##### Updating data
+If you want to update the data then there is no need to redo all the steps.
+
+1. Open up the data file in Mapbox Editor.
+2. Make the changes you want to do.
+3. Download the geoJSON.
+4. Open the previously created data source in Mapbox Studio from the Projects tab under Sources.
+5. Add the new geoJSON file as a new layer.
+6. Delete the old layer.
+7. Rename the new layer to `namedMarkers`.
+8. Save and upload to Mapbox.
+
 ##### Field type names
 
-##### Layer name options
+###### Polygons
+Currently the only supported polygon title is `farm`. If there is any text in the description then it will print that but it is most likely better to use a marker to display the point.
+
+###### Lines
+
+| Type | Use | Results|
+|------|-----|--------|
+|Path|Footpath| Dotted line|
+
+###### Markers
+Currently the only title supported is `marker` which will print the description on that point.
