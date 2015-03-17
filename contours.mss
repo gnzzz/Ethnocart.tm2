@@ -2,7 +2,7 @@
 // CONTOURS
 // ================================================================== 
 
-#contour.line::line[index!=-1] {
+#contour::line[index!=-1] {
   line-color: #000;
   line-opacity: 0.1;
   line-width: 1.2;
@@ -32,25 +32,19 @@
   }
 }
 */
-#contour.label::label {
+#contour::label {
   [zoom<=12][index>=5],
-  [zoom>=13][zoom<=15][index=10],
-  [zoom>=16][index>=5] {
+  [zoom>=13][zoom<=15][index>=5],
+  [zoom>=16] {
     text-name: "[ele]+' m'";
     text-face-name: @sans;
     text-placement: line;
     text-fill: #666;
     text-size: 10;
-    text-character-spacing: 1;
-    text-avoid-edges: false;
-//    text-repeat-distance: 100;
-//    text-min-distance: 1;
-//    text-label-position-tolerance: 0;
-//    text-margin: 100;
     text-halo-fill: fadeout(@land, 90);
     text-halo-radius: 4;
     text-halo-rasterizer: fast;
-//    text-clip:false;
+    text-max-char-angle-delta: 5;
     [ele<=0] { text-fill: spin(#666, 60); text-dy: -1; }
     }
   }

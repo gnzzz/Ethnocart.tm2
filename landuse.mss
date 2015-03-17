@@ -20,6 +20,6 @@
 }
 
 #landuse[zoom >= 15]{
-  text-name: [class];
-  text-face-name: @sans;
+  //text-name: [class];
+  //text-face-name: @sans;
 }

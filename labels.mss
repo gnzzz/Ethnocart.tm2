@@ -392,6 +392,19 @@
   }
 }
 
+#waterway_label {
+  [zoom>=14] {
+    text-name: @name;
+    text-face-name: @serif_it;
+    text-placement: line;
+    text-fill: #000;
+    text-size: 10;
+    text-placement: line;
+    text-dy: 6;
+    text-max-char-angle-delta: 5;
+  }
+}
+
 
 // ---------------------------------------------------------------------
 // House numbers

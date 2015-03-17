@@ -94,3 +94,19 @@
   tags: 
     - userbookmark
   index: 11
+- place_name: MARANHÃO, Brazil
+  zoom: 13
+  center: 
+    - -6.167435646489006
+    - -45.364952087402344
+  tags: 
+    - userbookmark
+  index: 12
+- place_name: Upper Demerara-Berbice, Guyana
+  zoom: 17
+  center: 
+    - 3.8835116919542916
+    - -58.80152106285095
+  tags: 
+    - userbookmark
+  index: 13

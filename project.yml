@@ -21,7 +21,7 @@ layers: null
 maxzoom: 22
 minzoom: 0
 name: Ethnocart
-source: "mapbox:///gnz.920de0b3,mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5,gnz.7b49735e"
 styles: 
   - style.mss
   - road.mss
@@ -30,4 +30,6 @@ styles:
   - contours.mss
   - landuse.mss
   - natural.mss
+  - manual data.mss
+  - water.mss
 template: ''
