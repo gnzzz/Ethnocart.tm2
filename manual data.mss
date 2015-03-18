@@ -12,16 +12,13 @@
     text-allow-overlap: true;
   }
  }
-#namedMarkers{
-  [title='path'][zoom>=12] {
-      line-color: @service;
-      line-join:round;
-      line-dasharray: 4,4;
-      line-cap: round;
-      [zoom>=16] { line-width: 9; line-color:@service; }
-      line-color: @path;
-      [zoom >= 18] { line-width: 4}
-      [zoom >= 17] { line-width: 3}
-      [zoom >= 12] { line-width: 2}
-    }
+
+#namedMarkers[title='arrow']{
+  marker-type: arrow;
+  marker-placement: vertex-last;
+  line-color: #000;
+  line-width: 2;
+  marker-allow-overlap: true;
+  marker-width: 20;
+  marker-fill: #000;
 }

@@ -1,6 +1,6 @@
 // ---------------------------------------------------------------------
 // Common Colors
-@water: #fff;
+@water: #aaa;
 @land: #fff;
 
 // Basic color palette, from which variations will be derived.
