@@ -3,6 +3,28 @@
 @water: #fff;
 @land: #fff;
 
+// Basic color palette, from which variations will be derived.
+@motorway:          #000;
+@motorway_case:      @land;
+@main:              @motorway;
+@main_case:          @land;
+@street:            #888;
+@street_case:        @land;
+@service:		    #ccc;
+@service_case:	     #ccc;
+@path:			    #000000;
+@path_case:		    #ededed;
+@rail: 			    #444;
+@aeroway: 		    #eee;
+
+// The colours of the makers, if shown
+@markerColor: #fff;
+@markerLine: #000;
+
+// Settings for disabling features of the map
+@showPlaceNames: true;
+@showPoiNames: false;
+@showPoiIcons: false;
 
 Map {
   background-color: @land;
@@ -75,8 +97,7 @@ Map {
   line-color: #000000;
   }
   [zoom>=16] {
-    polygon-fill: #ccc;
-    polygon-opacity: 0.6;  
+    polygon-fill: #000; 
   }
   ::overlay {
     opacity: 0.05;

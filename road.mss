@@ -1,16 +1,4 @@
-// Basic color palette, from which variations will be derived.
-@motorway:          #000;
-@motorway_case:      @land;
-@main:              @motorway;
-@main_case:          @land;
-@street:            #888;
-@street_case:        @land;
-@service:		    #ccc;
-@service_case:	     #ccc;
-@path:			    #000000;
-@path_case:		    #ededed;
-@rail: 			    #444;
-@aeroway: 		    #eee;
+
 
 // ---------------------------------------------------------------------
 // Roads are split across 3 layers: #road, #bridge, and #tunnel. Each

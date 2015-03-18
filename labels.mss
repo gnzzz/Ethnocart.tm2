@@ -116,7 +116,7 @@
 // Cities, towns, villages, etc
 // City labels with dots for low zoom levels.
 // The separate attachment keeps the size of the XML down.
-#place_label::citydots[type='city'][zoom>=4][zoom<=7][localrank<=3] {
+#place_label::citydots[type='city'][zoom>=4][zoom<=7][localrank<=3][@showPlaceNames=true] {
   // explicitly defining all the `ldir` values wer'e going
   // to use shaves a bit off the final project.xml size
   [ldir='N'],[ldir='S'],[ldir='E'],[ldir='W'],
@@ -151,7 +151,7 @@
   }
 }
 
-#place_label[zoom>=8][localrank<=3] {
+#place_label[zoom>=8][localrank<=3][@showPlaceNames=true] {
   text-name: @name;
   text-face-name: @serif;
   text-wrap-width: 170;
