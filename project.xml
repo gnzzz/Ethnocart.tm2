@@ -154,17 +154,17 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
-    <Filter>([class] = 'cemetery')</Filter>
-    <PolygonSymbolizer fill="#cccccc" fill-opacity="0.45" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>400000</MaxScaleDenominator>
     <Filter>([class] = 'park')</Filter>
     <PolygonSymbolizer fill="#cccccc" fill-opacity="0.45" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <Filter>([class] = 'pitch')</Filter>
+    <PolygonSymbolizer fill="#cccccc" fill-opacity="0.45" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([class] = 'cemetery')</Filter>
     <PolygonSymbolizer fill="#cccccc" fill-opacity="0.45" />
   </Rule>
 </Style>
@@ -353,9 +353,17 @@
     <StyleName>building</StyleName>
     <StyleName>building-overlay</StyleName>  </Layer>
 
+<Style name="landuse_overlay" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <Filter>([class] = 'wetland')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="1, 4" />
+    <PolygonPatternSymbolizer file="img/patterns/marsh-transparent.png" alignment="global" />
+  </Rule>
+</Style>
 <Layer name="landuse_overlay"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
+    <StyleName>landuse_overlay</StyleName>  </Layer>
 
 <Style name="tunnel-fill" filter-mode="first">
   <Rule>

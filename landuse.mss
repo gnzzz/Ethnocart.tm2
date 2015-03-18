@@ -19,6 +19,14 @@
   }
 }
 
+#landuse_overlay[class='wetland'][zoom>=15]{
+  line-width: 1;
+  line-color: #000;
+  line-dasharray:1,4;
+  polygon-pattern-file: url('img/patterns/marsh-transparent.png');
+  polygon-pattern-alignment: global;
+}
+
 #landuse[class='agriculture'],
 #namedMarkers[title='farm']{
   [zoom>=14] {
