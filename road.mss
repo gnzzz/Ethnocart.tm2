@@ -128,13 +128,22 @@
       line-join:round;
       line-dasharray: 8,6;
       #road, #bridge { line-cap: round; }
-      [zoom>=16] { line-width: 9; line-color:@service; }
+//      [zoom>=16] { line-width: 9; line-color:@service; }
       [type='track'] {
-        line-color: @path;
-        [zoom >= 18] { line-width: 4}
-        [zoom >= 17] { line-width: 3}
-        [zoom >= 12] { line-width: 2}
+        ::case {
+          [zoom >= 13] { line-width: 3}
+          [zoom >= 16] { line-width: 4}
+          [zoom >= 18] { line-width: 6}
+          line-dasharray: 8,6;
+          line-color:@path;
         }
+        ::fill {
+          [zoom >= 13] { line-width: 2}
+          [zoom >= 16] { line-width: 3}
+          [zoom >= 18] { line-width: 5}
+          line-color:@land;
+        }
+      }
     }
     [class='path'][zoom >= 12],
     #namedMarkers[title='path'][zoom >= 12]{
