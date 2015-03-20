@@ -105,7 +105,9 @@
       [zoom=15] { line-width: 4.5; line-color: lighten(@main,20);}
       [zoom>=16] { line-width: 8; line-color: lighten(@main,20);}
     }
-    [class='street'][zoom>=12], {
+    [class='street'][zoom>=12],
+    [class='street_limited'][zoom>=15],
+    [class='service'][zoom>=12]{
       line-color: #ccc;//#fff;
       line-join:round;
       #road, #bridge { line-cap: round; }
@@ -115,33 +117,44 @@
       [zoom=16] { line-width: 3; line-color: @street; }
       [zoom>=17] { line-width: 5; line-color: @street; }
     }
-    [class='street_limited'][zoom>=15], {
-      line-color: @street;
-      line-join:round;
-      #road, #bridge { line-cap: round; }
-      [zoom>=15] { line-width: 3.5; line-color: @street; }
-      [zoom>=16] { line-width: 9; line-color: @street; }
-    }
     [class='service'][zoom>=12],
     #namedMarkers[title='service'][zoom >= 12]{
-      line-color: @service;
-      line-join:round;
-      line-dasharray: 8,6;
       #road, #bridge { line-cap: round; }
 //      [zoom>=16] { line-width: 9; line-color:@service; }
       [type='track'] {
-        ::case {
-          [zoom >= 13] { line-width: 3}
-          [zoom >= 16] { line-width: 4}
-          [zoom >= 18] { line-width: 6}
+
+
+        ::top {
+          [zoom >= 13] { 
+            line-width: 1;
+            line-offset: 1;
+          }
+          [zoom >= 17] { 
+            line-width: 1;
+            line-offset: 2;
+          }
+          [zoom >= 18] {
+            line-width: 1;
+            line-offset: 3;
+          }
           line-dasharray: 8,6;
           line-color:@path;
         }
-        ::fill {
-          [zoom >= 13] { line-width: 2}
-          [zoom >= 16] { line-width: 3}
-          [zoom >= 18] { line-width: 5}
-          line-color:@land;
+        ::bottom {
+          [zoom >= 13] { 
+            line-width: 1;
+            line-offset: -1;
+          }
+          [zoom >= 17] { 
+            line-width: 1;
+            line-offset: -2;
+          }
+          [zoom >= 18] {
+            line-width: 1;
+            line-offset: -3;
+          }
+          line-dasharray: 8,6;
+          line-color:@path;
         }
       }
     }
