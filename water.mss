@@ -1,7 +1,8 @@
 // ---------------------------------------------------------------------
 // Water Features 
 #water {
-  polygon-fill: #999;
+  polygon-fill: @water;
+/*
   polygon-pattern-file: url('img/patterns/halftone2.png');
   polygon-pattern-alignment: global;
   polygon-pattern-opacity: 0.3;
@@ -24,7 +25,7 @@
     polygon-geometry-transform: translate(0,1);
     polygon-clip: false;
   }
-  /**/
+*/
 }
 
 #waterway {

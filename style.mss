@@ -1,10 +1,10 @@
 // ---------------------------------------------------------------------
 // Common Colors
-@water:    #aaa;
+@water:    #888;
 @land:     #fff;
-@wood:     darkseagreen;
+@wood:     #ccc;
 @sand:     yellow;
-@grass:    cornsilk;
+@grass:    #fff;
 @rock:     brown;
 @barrier:  black;
 
@@ -32,6 +32,7 @@
 @showPlaceNames: true;
 @showPoiNames: false;
 @showPoiIcons: false;
+@showLandCover: false;
 
 Map {
   background-color: @land;

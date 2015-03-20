@@ -5,36 +5,56 @@
     polygon-fill: #ccc;
     polygon-opacity: 0.45;
   }
-  [class='hospital'][zoom>13],[class='school'][zoom>13] { 
-	polygon-fill: #ccc;
-    polygon-opacity: 0.3;
-  }
   [class='wood'] { 
-    polygon-fill: #ccc;
+    polygon-fill: @wood;
     polygon-opacity: 0.6;  
+    [zoom>=14] {
+//      line-width: 0.5; 
+      polygon-pattern-file: url('img/patterns/forest_rand.svg');
+      polygon-pattern-opacity: 0.2;
+    }
   }
+  [class='sand'] { 
+    polygon-fill: @sand;
+    polygon-opacity: 0.6;
+  }  
   ::overlay {
   // Landuse classes look better as a transparent overlay.
   opacity: 0.05;
   }
 }
 
+#landcover[@showLandCover=true]{
+  [class='wood'] { polygon-fill: @wood; }
+  [class='scrub'] { polygon-fill: mix(@wood,@grass,75%); }
+  [class='grass'] { polygon-fill: mix(@wood,@grass,50%); }
+  [class='crop'] { polygon-fill: mix(@wood,@grass,25%); }
+  [class='snow'] { polygon-fill: white; }
+}
+
 #landuse_overlay[class='wetland'][zoom>=15]{
   line-width: 1;
   line-color: #000;
   line-dasharray:1,4;
-  polygon-pattern-file: url('img/patterns/marsh-transparent.png');
+  polygon-pattern-file: url('img/patterns/marsh_rand.svg');
+  polygon-pattern-alignment: global;
+}
+#landuse_overlay[class='wetland_noveg'][zoom>=15]{
+  line-width: 1;
+  line-color: #000;
+  line-dasharray:1,4;
+  polygon-pattern-file: url('img/patterns/marsh_noveg_rand.svg');
   polygon-pattern-alignment: global;
 }
 
 #landuse[class='agriculture'],
 #namedMarkers[title='farm']{
-  [zoom>=14] {
+  [zoom>=12] {
     line-width: 0.5; 
     line-color: #000000;
   }
-  [zoom>=16] {
-    line-width: 0.5; 
+  [zoom>=12] {
+    line-width: 0; 
     polygon-pattern-file: url('img/patterns/stripe_sm.png');
     polygon-pattern-opacity: 0.2;
   }
