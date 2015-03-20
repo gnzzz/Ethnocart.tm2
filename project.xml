@@ -149,6 +149,18 @@
 <Style name="landuse" filter-mode="first">
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <Filter>([class] = 'sand')</Filter>
+    <PolygonSymbolizer fill="#eeeeee" fill-opacity="0.6" />
+    <PolygonPatternSymbolizer file="img/patterns/sand_rand.svg" opacity="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([class] = 'sand')</Filter>
+    <PolygonSymbolizer fill="#eeeeee" fill-opacity="0.6" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
     <Filter>([class] = 'wood')</Filter>
     <PolygonSymbolizer fill="#cccccc" fill-opacity="0.6" />
     <PolygonPatternSymbolizer file="img/patterns/forest_rand.svg" opacity="0.2" />
@@ -167,17 +179,12 @@
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
-    <Filter>([class] = 'sand')</Filter>
-    <PolygonSymbolizer fill="#ffff00" fill-opacity="0.6" />
-  </Rule>
-  <Rule>
-    <MaxScaleDenominator>400000</MaxScaleDenominator>
-    <Filter>([class] = 'pitch')</Filter>
+    <Filter>([class] = 'park')</Filter>
     <PolygonSymbolizer fill="#cccccc" fill-opacity="0.45" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
-    <Filter>([class] = 'park')</Filter>
+    <Filter>([class] = 'pitch')</Filter>
     <PolygonSymbolizer fill="#cccccc" fill-opacity="0.45" />
   </Rule>
   <Rule>
@@ -359,7 +366,7 @@
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([class] = 'cliff')</Filter>
-    <LineSymbolizer stroke="#a52a2a" stroke-width="3" offset="2" stroke-dasharray="1, 4" />
+    <LineSymbolizer stroke="#000000" stroke-width="3" offset="2" stroke-dasharray="1, 4" />
   </Rule>
 </Style>
 <Style name="barrier_line-line" filter-mode="first">
@@ -371,7 +378,7 @@
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([class] = 'cliff')</Filter>
-    <LineSymbolizer stroke="#a52a2a" stroke-width="1" />
+    <LineSymbolizer stroke="#000000" stroke-width="1" />
   </Rule>
 </Style>
 <Layer name="barrier_line"

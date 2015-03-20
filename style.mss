@@ -3,9 +3,9 @@
 @water:    #888;
 @land:     #fff;
 @wood:     #ccc;
-@sand:     yellow;
+@sand:     #eee;
 @grass:    #fff;
-@rock:     brown;
+@rock:     #000;
 @barrier:  black;
 
 @debug:    #f00;

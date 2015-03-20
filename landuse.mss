@@ -17,6 +17,11 @@
   [class='sand'] { 
     polygon-fill: @sand;
     polygon-opacity: 0.6;
+    [zoom>=14] {
+//      line-width: 0.5; 
+      polygon-pattern-file: url('img/patterns/sand_rand.svg');
+      polygon-pattern-opacity: 0.5;
+    }
   }  
   ::overlay {
   // Landuse classes look better as a transparent overlay.
