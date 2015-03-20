@@ -28,3 +28,45 @@
     } 
   }
 }
+
+/*
+'cliff'	The precipice of a vertical or very steep drop
+'fence'	Include various types of fence and wall barriers
+'gate'	Only gates that are lines or areas are included
+'hedge'	
+'land'	Includes breakwaters and piers
+
+Data available in z13 +
+*/
+
+#barrier_line[class='cliff'][zoom >= 13] {
+  ::line{
+    line-color: @rock; 
+    line-width: 1;
+  }
+  ::hash{
+    line-color: @rock; 
+    line-width: 3;
+    line-offset: 2;
+    line-dasharray: 1,4;
+  }
+}
+#barrier_line[class='fence'][zoom >= 13] { 
+  ::line{
+    line-color: @barrier; 
+    line-width: 1;
+  }
+  ::hash{
+    line-color: @barrier; 
+    line-width: 3;
+    line-dasharray: 1,10;
+    line-cap: round;
+  }
+}
+#barrier_line[class='gate'] { line-color: @debug; }
+#barrier_line[class='hedge'] { line-color: @wood; }
+
+#barrier_line[class='land'] {
+  polygon-fill: @land;  
+  line-color: @land; 
+}

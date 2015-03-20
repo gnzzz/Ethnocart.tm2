@@ -155,7 +155,8 @@
       [zoom >= 17] { line-width: 3}
       [zoom >= 12] { line-width: 1}
     }
-    [class='major_rail'] {
+    [class='major_rail'],
+    [class='minor_rail']  {
       line-width: 0.4;
       line-color: @rail;
       [zoom>=16] {
