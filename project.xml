@@ -175,7 +175,7 @@
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <Filter>([class] = 'agriculture')</Filter>
     <LineSymbolizer stroke-width="0" stroke="#000000" />
-    <PolygonPatternSymbolizer file="img/patterns/stripe_sm.png" opacity="0.2" />
+    <PolygonPatternSymbolizer file="img/patterns/agriculture.svg" alignment="global" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
@@ -4984,7 +4984,7 @@
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <Filter>([title] = 'farm')</Filter>
     <LineSymbolizer stroke-width="0" stroke="#000000" />
-    <PolygonPatternSymbolizer file="img/patterns/stripe_sm.png" opacity="0.2" />
+    <PolygonPatternSymbolizer file="img/patterns/agriculture.svg" alignment="global" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>

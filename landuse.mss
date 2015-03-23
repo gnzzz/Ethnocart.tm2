@@ -60,8 +60,8 @@
   }
   [zoom>=12] {
     line-width: 0; 
-    polygon-pattern-file: url('img/patterns/stripe_sm.png');
-    polygon-pattern-opacity: 0.2;
+    polygon-pattern-file: url('img/patterns/agriculture.svg');
+    polygon-pattern-alignment: global;
   }
   ::overlay {
     opacity: 0.05;
