@@ -13,7 +13,7 @@ You can save a local place of interest which allows you to quickly return to tha
 
 #### Adding or editing map features
 
-If the information you want to add or edit is of general interest - such as buildings, local shops or roads - then it is better to edit the informaion in [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Editing). This will ensure that the local community will be able to use the information you add as OpenStreetMap is used in many applications. There is a [beginners guide](http://wiki.openstreetmap.org/wiki/Beginners%27_guide) available on the OSM wiki and using the (iD)[http://wiki.openstreetmap.org/wiki/ID] editor is recommended as you can put on a satellite overlay to help with adding data.
+If the information you want to add or edit is of general interest - such as buildings, local shops or roads - then it is better to edit the informaion in [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Editing). This will ensure that the local community will be able to use the information you add as OpenStreetMap is used in many applications. There is a [beginners guide](http://wiki.openstreetmap.org/wiki/Beginners%27_guide) available on the OSM wiki and using the [iD](http://wiki.openstreetmap.org/wiki/ID) editor is recommended as you can put on a satellite overlay to help with adding data.
 
 #### Adding other information
 
@@ -60,3 +60,9 @@ If you want to have a text showing by the area then add a marker with a property
 The extra layer will act as a point where you can add OSM style data points. This is however far from complete and if you want a specific feature then report it as an issue above.
 
 If you just want a marker with icon or text then you can add that and set the `marker-symbol` property to a text value. You will have to add a SVG file in `img/icons/` with the same name. OSM style icons can be found [here](http://www.sjjb.co.uk/mapicons/contactsheet). The name will be printed if it has a `name` property.
+
+#### Possible problems
+
+##### Labels showing up clipped on high zoom levels
+
+If you have a marker with a text that gets clipped at high zoom levels, then you will either need to move the point of increase the buffer size for the layer. If you want to increase the buffer size, then this is done by going back to your data source, clicking on the layer and change buffer size there.
