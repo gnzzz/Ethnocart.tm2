@@ -15,81 +15,48 @@ You can save a local place of interest which allows you to quickly return to tha
 
 If the information you want to add or edit is of general interest - such as buildings, local shops or roads - then it is better to edit the informaion in [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Editing). This will ensure that the local community will be able to use the information you add as OpenStreetMap is used in many applications. There is a [beginners guide](http://wiki.openstreetmap.org/wiki/Beginners%27_guide) available on the OSM wiki and using the (iD)[http://wiki.openstreetmap.org/wiki/ID] editor is recommended as you can put on a satellite overlay to help with adding data.
 
-#### Adding natural features missing from the Mapbox data source
-
-If you need natural features - such as forests - then you will need to run and export a query on [Overpass Turbo](http://overpass-turbo.eu) to add map data for some map features. Go to the URL above and copy paste the following code snippet and run it over the area you want to map. Take care not too use a too large area as this will probably take too long time to run.
-```sql
-/*
-Outputs the missing map data to Mapbox
-
-Usage: 
- 1. Copy this to http://overpass-turbo.eu
- 2. Move map to area of interest, or search
- 3. Click run
- 4. Click export and choose as geoJSON, save this file
- 5. Upload the file to your mapbox account as a data source
- 6. Copy data source ID to your project
-*/
-[out:json][timeout:25];
-(
-  // query part for: “natural”
-  node["natural"]({{bbox}});
-  way["natural"]({{bbox}});
-  relation["natural"]({{bbox}});
-  // query part for: “leisure”
-  node["leisure"]({{bbox}});
-  way["leisure"]({{bbox}});
-  relation["leisure"]({{bbox}});
-);
-out body;
->;
-out skel qt;
-```
-
-Once you have run that then export the result as a geoJSON file and upload it to your mapbox account as a data source. You can then add this data source to your map by adding it as a data source under the layers option by pasting the data ID.
-
-
-#### Adding points of interest
+#### Adding other information
 
 If the information you want to add is only of interest to your one map then you should add this as a local data source for Mapbox Studio.
 
-The basic idea is that you will use the [Mapbox editor](https://www.mapbox.com/editor/) to add markers, lines and polygons that are used.
+The basic idea is that you will use a [geoJSON editor](http://geojson.io) to add markers, lines and polygons that are used.
 
-##### Adding the data for the first time
+##### Adding data for the first time
 
-1. Go to the editor on your account.
-2. Click data and zoom to the region of interest
-3. Add markers, lines and polygons with the name field to be the type ( see below ) and the description to be the name - if any - of that marker.
-4. Click save when you are done editing
-5. Click the project button and download the data as geoJSON
-6. In Mapbox Studio, click projects and data sources. If you don't already have a data source for this project click new otherwise select new project and empty data source.
-7. Add a new layer and select the .json file you downloaded in step 5 and give it a description for yourself and rename the layer to `namedMarkers`.
-8. Save the data and click projects and upload to mapbox. Once done, go back and copy the Map ID
-9. Go back to ethnocart from the projects overview and by clicking layers change source. Add the Map ID from step 8 to the start of the string in the bottom and add a comma to seperate the Map ID from the other that was already there.
-10. If done correctly then you should now see that there is a new layer in the bottom of the overview.
+There are three files in the `_doc/geoJSON/` folder. These can act as an example to get the data source working and also as a base to edit any features you want to add.
+
+To add the data source layer:
+
+1. Go to the Projects view in Mapbox Studio and click new project and select a blank source.
+2. Click new layer and add the three files, making sure the names of the layers are `extra`, `namedMarkers` and `area`.
+3. Save the source and under settings, upload to Mapbox.
+4. Once the upload is complete you should have Map ID. Copy this down and switch over to the Ethnocart style.
+5. Under layers, click change source and add the Map ID from your source to the end of the list. For example: `mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5,youruserid.12345678`
 
 ##### Updating data
 If you want to update the data then there is no need to redo all the steps.
 
-1. Open up the data file in Mapbox Editor.
-2. Make the changes you want to do.
-3. Download the geoJSON.
+1. Edit the file you want to change in geojson.io or any other editor
+2. Replace the original file and make sure the name is the same
 4. Open the previously created data source in Mapbox Studio from the Projects tab under Sources.
-5. Add the new geoJSON file as a new layer.
-6. Delete the old layer.
-7. Rename the new layer to `namedMarkers`.
 8. Save and upload to Mapbox.
 
-##### Field type names
+It will take a small amount of time for the changed data source to be processed. Once it is you will have to refresh the layers in your style to see the new data.
 
-###### Polygons
-Currently the only supported polygon title is `farm`. If there is any text in the description then it will print that but it is most likely better to use a marker to display the point.
+##### Purpose of the three layers
 
-###### Lines
+###### Area
 
-| Type | Use | Results|
-|------|-----|--------|
-|Path|Footpath| Dotted line|
+The area file is intended to mark areas and can be turned off with the `@showAreas` flag.
 
-###### Markers
-Currently the only title supported is `marker` which will print the description on that point.
+You can add any polygon shape and it will show up in the map with the colours etc the way you have defined them in geojson.io, or you can use default values by setting `@useAreaData` to `false`.
+
+If you want to have a text showing by the area then add a marker with a property `name` and value what to show. The text will be placed center align at that point.
+
+###### namedMarkers
+
+###### extra
+
+The extra layer will act as a point where you can add OSM style data points. This is however far from complete and if you want a specific feature then report it as an issue above.
+
+If you just want a marker with icon or text then you can add that and set the `marker-symbol` property to a text value. You will have to add a SVG file in `img/icons/` with the same name. OSM style icons can be found [here](http://www.sjjb.co.uk/mapicons/contactsheet). The name will be printed if it has a `name` property.
