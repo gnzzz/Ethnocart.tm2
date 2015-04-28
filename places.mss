@@ -19,7 +19,6 @@
     text-min-distance: 50;
     text-wrap-width: 60;
     text-line-spacing:	-2;
-    text-allow-overlap: false;
     [zoom>=13] {
       text-size: 10;
       text-line-spacing: -2;

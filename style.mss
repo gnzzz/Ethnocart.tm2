@@ -29,10 +29,28 @@
 @markerLine: #000;
 
 // Settings for disabling features of the map
-@showPlaceNames: true;
+@showPlaceNames: false;
 @showPoiNames: false;
 @showPoiIcons: false;
 @showLandCover: false;
+@showCountryNames: false;
+@showRoadLabels: false;
+@showContours: true;
+
+
+@showLandCover: true;
+@landuseMaxZoom: 10;
+
+// Show the imported data corresponding to marked areas
+@showAreas: true;
+// If the following is false it will use the colours defined afterwards
+@useAreaData: false;
+@area: #000;
+@areaLine: #000;
+@areaOpacity: 0.2;
+
+// Use the imported data to mark places, etc
+@useExtraData: true;
 
 Map {
   background-color: @land;

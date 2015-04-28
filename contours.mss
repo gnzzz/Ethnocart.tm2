@@ -2,7 +2,7 @@
 // CONTOURS
 // ================================================================== 
 
-#contour::line[index!=-1] {
+#contour::line[index!=-1][@showContours = true] {
   line-color: #000;
   line-opacity: 0.1;
   line-width: 1.2;
@@ -32,7 +32,7 @@
   }
 }
 */
-#contour::label {
+#contour::label[@showContours = true] {
   [zoom<=12][index>=5],
   [zoom>=13][zoom<=15][index>=5],
   [zoom>=16] {
@@ -45,6 +45,7 @@
     text-halo-radius: 4;
     text-halo-rasterizer: fast;
     text-max-char-angle-delta: 5;
+    text-avoid-edges: true;
     [ele<=0] { text-fill: spin(#666, 60); text-dy: -1; }
     }
   }

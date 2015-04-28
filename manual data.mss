@@ -1,3 +1,7 @@
+/*
+These styles are for the imported data corresponding to named markers and arrows
+*/
+
 #namedMarkers {
   [title='marker'][zoom>=12]{
     text-name: [description];
@@ -9,7 +13,7 @@
     text-halo-rasterizer: fast;
     text-min-distance: 50;
     text-wrap-width: 60;
-    text-allow-overlap: true;
+//    text-allow-overlap: true;
   }
  }
 

@@ -51,7 +51,7 @@ Data available in z13 +
     line-dasharray: 1,4;
   }
 }
-#barrier_line[class='fence'][zoom >= 13] { 
+#barrier_line[class='fence'][zoom >= 15] { 
   ::line{
     line-color: @barrier; 
     line-width: 1;
